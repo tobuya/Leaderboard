@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3%;
+  margin: 2%;
+}
+
+h1 {
+  margin: 4%;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  width: 80vw;
+  gap: 100px;
+  align-self: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 25vw;
+}
+
+.refresh {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 3px;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  border: 1px solid #000;
+  box-shadow: 0 2px 2px 2px #000;
+}
+
+form button {
+  width: 30%;
+  align-self: flex-end;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+table {
+  border: 2px solid #000;
+}
+
+td {
+  border: none;
+  padding: 4px 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 25vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 5px 2px;
+  border: 2px solid #000;
+  width: 100%;
+}
