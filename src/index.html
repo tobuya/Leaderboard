@@ -13,35 +13,15 @@
         <div class="board">
             <div class="refresh">
                 <h3>Recent scores</h3>
-                <button class="refresh-btn">Refresh</button>
+                <button id="refresh-btn">Refresh</button>
             </div>
             <table>
-                <tr>
-                    <td>Name: 100</td>
-                </tr>
-                <tr>
-                    <td>Name: 20</td>
-                </tr>
-                <tr>
-                    <td>Name: 50</td>
-                </tr>
-                <tr>
-                    <td>Name: 78</td>
-                </tr>
-                <tr>
-                    <td>Name: 125</td>
-                </tr>
-                <tr>
-                    <td>Name: 77</td>
-                </tr>
-                <tr>
-                    <td>Name: 42</td>
-                </tr>
+                <tbody id="holder"></tbody>
             </table>
         </div>
         <div class="add-score">
             <h3>Add your score</h3>
-            <form>
+            <form id="submit">
                 <label for="name">
                     <input type="text" id="name" placeholder="Your name">
                 </label>
