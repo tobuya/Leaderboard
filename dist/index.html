@@ -1,1 +1,43 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Leaderboard</title><script defer="defer" src="main.js"></script></head><body><h1>Leaderboard</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+<body>
+    <header>
+        <h1>Leaderboard</h1>
+    </header>
+    <main>
+       <section class="container">
+        <div class="board">
+            <div class="refresh">
+                <h3>Recent scores</h3>
+                <button id="refresh-btn">Refresh</button>
+            </div>
+            <table>
+                <tbody id="holder"></tbody>
+            </table>
+        </div>
+        <div class="add-score">
+            <h3>Add your score</h3>
+            <form id="submit">
+                <label for="name">
+                    <input type="text" id="name" placeholder="Your name">
+                </label>
+                <label for="score">
+                    <input type="text" id="score" placeholder="Your score">
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+       </section>
+    </main>
+    <footer>
+        <p><i class="material-icons">copyright</i> 2023 Leaderboard</p>
+    </footer>
+</body>
+</html>
