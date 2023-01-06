@@ -6,3 +6,4 @@ const form = document.getElementById('submit');
 
 refreshBtn.addEventListener('click', fetchData);
 form.addEventListener('submit', sendData);
+window.addEventListener('load', fetchData);
